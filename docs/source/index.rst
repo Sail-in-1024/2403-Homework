@@ -9,6 +9,7 @@
 .. toctree::
    :maxdepth: 4
    
+   faq
    moreinfo
 
 
