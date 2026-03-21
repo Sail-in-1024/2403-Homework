@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
+2403 Homework
+=============
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repository includes homework for 2403. 
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+In other words, it's a GitHub format of homework for Class 803 (current name). 
