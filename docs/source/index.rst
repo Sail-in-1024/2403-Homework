@@ -9,5 +9,7 @@
 .. toctree::
    :maxdepth: 4
    :glob:
+   :reversed:
    
+   api
    *作业
