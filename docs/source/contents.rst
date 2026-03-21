@@ -12,7 +12,10 @@
    
    moreinfo
    glossary
-   contents
+
+.. toctree::
+   :maxdepth: 2
+
    updatelogs
 
 .. toctree::
