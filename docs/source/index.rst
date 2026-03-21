@@ -12,6 +12,5 @@
    :reversed:
    :titlesonly:
    
-   glossary
    homework*
    message*
