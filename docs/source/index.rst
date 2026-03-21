@@ -10,6 +10,6 @@
    :maxdepth: 4
    :glob:
    :reversed:
+   :titlesonly:
    
-   api
    *作业
