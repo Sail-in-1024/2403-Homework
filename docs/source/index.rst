@@ -13,3 +13,4 @@
    :titlesonly:
    
    homework*
+   message*
