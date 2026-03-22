@@ -15,11 +15,6 @@
    updatelogs
 
 .. toctree::
-   :maxdepth: 2
-   
-   contents
-
-.. toctree::
    :glob:
    :reversed:
    
