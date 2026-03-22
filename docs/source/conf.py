@@ -7,7 +7,7 @@ copyright = '2026, 颜赏'
 author = '颜赏'
 
 release = '1.0'
-version = '1.0.0b3'
+version = '1.0.0b4'
 
 # -- General configuration
 
@@ -34,3 +34,9 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+today_fmt = '%b %d, %Y (%H:%M %Z)'
+
+rst_epilog = """
+.. |class-name| replace:: 803
+"""
