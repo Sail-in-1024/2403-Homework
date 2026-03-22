@@ -23,7 +23,7 @@ GitHub
    
    .. attention::
       
-      名称“|class-name|”是当前对2403班的称呼，之后可能发生变更。
+      名称“|class-name|”是当前对2403班的称呼，未来可能发生变更。
 
 .. rubric:: Footnotes
 .. [#] 正常人一般不用看。
