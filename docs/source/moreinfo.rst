@@ -1,6 +1,11 @@
 更多信息
 ========
 
+GitHub
+   见 `The GitHub Repository`_。
+
+.. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
+
 特定指代 [#]_
    见 :doc:`glossary`。
 
