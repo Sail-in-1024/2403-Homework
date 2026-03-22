@@ -4,19 +4,6 @@
 可能会比较长
 
 .. toctree::
-   :maxdepth: 2
+   :numbered:
    
    index
-
-.. toctree::
-   
-   moreinfo
-   glossary
-   updatelogs
-
-.. toctree::
-   :glob:
-   :reversed:
-   
-   homework*
-   message*
