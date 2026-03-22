@@ -20,7 +20,7 @@ GitHub
    见 :doc:`contents`。
 
 时效性
-   最后更新于 |today| 。
+   最后一次更新于 |today| 。
    
    .. attention::
       
