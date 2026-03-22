@@ -10,8 +10,8 @@
 
 .. _Sphinx: https://sphinx-doc.org/zh-cn
 
-* 怎么做的？
-------------
+\* 怎么做的？
+-------------
 
    首先，这个项目被存储在 `The GitHub Repository`_ 上，使用的是 `Read the Docs tutorial`_ 模板。
 
