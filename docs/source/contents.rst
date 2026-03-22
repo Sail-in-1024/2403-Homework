@@ -4,6 +4,5 @@
 可能会比较长
 
 .. toctree::
-   :numbered:
    
    index
