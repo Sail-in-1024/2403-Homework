@@ -6,3 +6,8 @@
 .. toctree::
    
    index
+
+.. toctree::
+   
+   glossary
+   updatelogs
