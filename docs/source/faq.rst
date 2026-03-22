@@ -35,7 +35,6 @@
    # 代码块
 
 .. hint::
-   :collapsible:
    
    提示
 
