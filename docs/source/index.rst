@@ -21,12 +21,3 @@
    :reversed:
    
    events/*
-
-时效性
-------
-
-最后更新于 |today| 。
-
-.. attention::
-   
-   名称“|class-name|”是当前对2403班的称呼，之后可能发生变更。
