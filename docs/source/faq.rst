@@ -13,10 +13,11 @@
 * 怎么做的？
 ------------
 
-   首先，这个项目被存储在 :ref:`moreinfo:_The GitHub Repository` 上，使用的是 `Read the Docs tutorial`_ 模板。
+   首先，这个项目被存储在 `The GitHub Repository`_ 上，使用的是 `Read the Docs tutorial`_ 模板。
 
    然后，这个 GitHub 仓库又被 `Read the Docs`_ 项目连接。这样，每当仓库中出现新的提交 *（Commit）* 时，网页会自动重新生成，并做出相应的更改。
 
+.. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
 .. _Read the Docs tutorial: https://github.com/readthedocs/tutorial-template/
 
 每次打开怎么都那么慢？
