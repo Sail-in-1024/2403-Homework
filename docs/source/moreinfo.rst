@@ -18,5 +18,12 @@ GitHub
 完整目录
    见 :doc:`contents`。
 
+时效性
+   最后更新于 |today| 。
+   
+   .. attention::
+      
+      名称“|class-name|”是当前对2403班的称呼，之后可能发生变更。
+
 .. rubric:: Footnotes
 .. [#] 正常人一般不用看。
