@@ -18,6 +18,13 @@
 .. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
 .. _Read the Docs tutorial: https://github.com/readthedocs/tutorial-template/
 
+\* 为什么选择在线上发布？
+-------------------------
+  
+  线上的功能更丰富。
+  
+  这就很像一个类似的问题“\ :ref:`真的不是大材小用吗？`\ ”。
+
 每次打开怎么都那么慢？
 ======================
 
