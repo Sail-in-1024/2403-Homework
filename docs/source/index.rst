@@ -20,4 +20,4 @@
    :glob:
    :reversed:
    
-   *.*.*-*
+   events/*
