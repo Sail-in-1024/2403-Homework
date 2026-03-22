@@ -7,18 +7,17 @@
 ----
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
    
    faq
    moreinfo
 
 
-下面列出了不同时间布置的作业，按日期降序排序。 可能不太完整。
+下面列出了不同时间的消息布置的作业，按日期降序排序。 可能不太完整。
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
    :glob:
    :reversed:
    
-   homework*
-   message*
+   *-*.*.*
