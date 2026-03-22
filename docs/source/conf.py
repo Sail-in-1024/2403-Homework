@@ -3,11 +3,11 @@
 # -- Project information
 
 project = '2403 Homework'
-copyright = '2025, 颜赏'
+copyright = '2026, 颜赏'
 author = '颜赏'
 
 release = '1.0'
-version = '1.0.0b2'
+version = '1.0.0b3'
 
 # -- General configuration
 
