@@ -21,3 +21,9 @@
    :reversed:
    
    events/*
+
+最后更新于 |today| 。
+
+.. attention::
+   
+   名称“|class-name|”是当前对 2403班 的称呼，此后可能会被更改。
