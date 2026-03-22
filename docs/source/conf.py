@@ -7,7 +7,7 @@ copyright = '2026, 颜赏'
 author = '颜赏'
 
 release = '1.0'
-version = '1.0.0rc1'
+version = '1.0.0rc2'
 
 # -- General configuration
 
