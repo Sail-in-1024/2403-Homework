@@ -7,7 +7,7 @@
 --------
    发布于 2026/3/22
    
-   修复了 reST 语法层面的一些小问题，对诸多细节做了调整；
+   修复了 `reST`_ 语法层面的一些小问题，对诸多细节做了调整；
    首次定为 **预发布版本** *(RC, Release Candidate)*。
 
 1.0.0b4
@@ -27,3 +27,5 @@
    发布于 2026/3/21
    
    创建了这个项目。
+
+.. _reST: https://www.sphinx-doc.org/zh-cn/master/usage/restructuredtext/index.html
