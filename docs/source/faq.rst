@@ -6,7 +6,7 @@
 
 这是 |class-name| 的作业记录项目，用来为忘记作业的人提供参考。
 
-这也是一个 :external:`Sphinx<sphinx>` 文档项目，但并非用于部署文档。
+这也是一个 `Sphinx`_ 文档项目，但并非用于部署文档。
 
 \* 怎么做的？
 -------------
@@ -43,4 +43,5 @@
 
 按照计划，这个项目将持续维护～😊
 
-.. _Read the Docs: https://www.readthedocs.org/
+.. _Sphinx: https://www.sphinx
+.. _Read the Docs: https://www.sphinx-doc.org/zh-cn/master/
