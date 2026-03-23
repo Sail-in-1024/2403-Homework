@@ -22,6 +22,7 @@
 时效性
 ------
 
+当前版本 |version| ；
 最后一次更新于 |today| 。
 
 .. attention::
