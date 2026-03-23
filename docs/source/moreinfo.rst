@@ -22,12 +22,13 @@
 时效性
 ------
 
-当前版本 |version| ；
 最后一次更新于 |today| 。
 
 .. attention::
       
    名称“|class-name|”是当前对2403班的称呼，未来可能发生变更。
+
+当前版本为 |version| 。
 
 .. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
 
