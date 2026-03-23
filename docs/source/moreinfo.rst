@@ -2,22 +2,22 @@
 更多信息
 ========
 
-GitHub
-   见 `The GitHub Repository`_。
+.. seealso::
 
-.. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
+   GitHub
+      见 `The GitHub Repository`_。
 
-特定指代 [#]_
-   见 :doc:`glossary`。
+   特定指代 [#]_
+      见 :doc:`glossary`。
 
-常见问题
-   见 :doc:`faq`。
+   常见问题
+      见 :doc:`faq`。
 
-更新日志
-   见 :doc:`updatelogs`。
+   更新日志
+      见 :doc:`updatelogs`。
 
-完整目录
-   见 :doc:`contents`。
+   完整目录
+      见 :doc:`contents`。
 
 时效性
    最后一次更新于 |today| 。
@@ -25,6 +25,8 @@ GitHub
    .. attention::
       
       名称“|class-name|”是当前对2403班的称呼，未来可能发生变更。
+
+.. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
 
 .. rubric:: Footnotes
 .. [#] 正常人一般不用看。
