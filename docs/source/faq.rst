@@ -2,11 +2,9 @@
 常见问题
 ========
 
-.. admonition:: 问题列表
+.. toctree::
    
-   .. toctree::
-      
-      faq
+   faq
 
 这是什么？
 ----------
