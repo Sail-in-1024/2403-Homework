@@ -2,9 +2,11 @@
 常见问题
 ========
 
-.. only:: html
+.. admonition:: 目录
    
-   .. contents::
+   .. toctree::
+      
+      faq
 
 这是什么？
 ----------
