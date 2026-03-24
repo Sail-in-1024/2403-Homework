@@ -2,7 +2,7 @@
 常见问题
 ========
 
-.. admonition:: 目录
+.. admonition:: 问题列表
    
    .. toctree::
       
