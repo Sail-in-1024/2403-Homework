@@ -7,7 +7,7 @@ copyright = '2026, 颜赏'
 author = '颜赏'
 
 release = '1.0'
-version = '1.0.0rc3'
+version = '1.0.0rc4'
 
 # -- General configuration
 
@@ -32,8 +32,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
-html_theme_options = {
-    'display_version': True,
+# html_theme_options = {
 }
 
 # -- Options for EPUB output
