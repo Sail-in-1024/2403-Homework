@@ -4,12 +4,13 @@
 特殊指代
 ========
 
-:ref:`special-ref`\ 分为\ :term:`内建特殊指代`\ 和\ :term:`给伪人看的`。
+:ref:`special-ref`\ 分为\ :term:`内建的`\ 和\ :term:`给伪人看的`。
 
 以下为\ :term:`内建特殊指代`。
 
 .. glossary::
    
+   内建的
    内建特殊指代
       仅在 :doc:`2403 Homework<index>` 中有特殊含义的指代。
    
