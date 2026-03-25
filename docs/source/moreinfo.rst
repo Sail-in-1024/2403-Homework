@@ -7,11 +7,11 @@
    GitHub
       见 `The GitHub Repository`_。
    
-   特定指代 [#]_
-      见 :doc:`glossary`。
-   
    常见问题
       见 :doc:`faq`。
+   
+   特殊指代 [#]_
+      见 :doc:`glossary`。
    
    更新日志
       见 :doc:`updatelogs`。
