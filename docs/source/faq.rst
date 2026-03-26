@@ -34,6 +34,8 @@
 
 大多数情况下不是我的问题。也可能是，因为我不是 `Read the Docs`_ 的付费用户，在公共资源访问高峰时一般打开较慢；不过据我所知，这可能和你连接的网络、你的设备（例如，用 :term:`803的破电脑` 时），以及使用的浏览器有关。
 
+另外， `Cloudflare`_ 的安全验证可能也要花费很多时间（这个是自带的）。
+
 移动端该怎么找到以前的作业内容？
 --------------------------------
 
@@ -78,3 +80,4 @@
 .. _Sphinx: https://www.sphinx-doc.org/zh-cn/master/
 .. _Read the Docs: https://www.readthedocs.org/
 .. _GitHub: https://www.github.com/
+.. _Cloudflare: https://www.cloudflare-cn.com/
