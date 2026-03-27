@@ -43,6 +43,8 @@
 
 展开右下角的“ReadtheDocs”菜单也可以找到搜索框\ *(Search docs)*\ 。
 
+好像要输入至少3个字符才会自动调用搜索。
+
 .. _is-overqualified:
 
 真的不是大材小用吗？
