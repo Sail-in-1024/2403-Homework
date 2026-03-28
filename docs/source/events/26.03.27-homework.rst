@@ -39,4 +39,4 @@
 
 .. [#] 兴趣班同学写 :term:`巧学提优` ``第2讲``
 
-*来自 https://2403-homework.readthedocs.io/*
+|page-source|
