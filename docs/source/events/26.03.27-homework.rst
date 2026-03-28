@@ -41,4 +41,4 @@
 
 .. hint::
 
-   现在还可以通过访问 https://2403-homework.readthedocs.io/ 来查看最新的作业。
+   现在还可以访问 https://2403-homework.readthedocs.io/ 来查看最新的作业。
