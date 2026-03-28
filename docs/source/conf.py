@@ -42,4 +42,5 @@ today_fmt = '%b %d, %Y (%H:%M %Z)'
 
 rst_epilog = """
 .. |class-name| replace:: 803
+.. |page-source| replace:: *来自 https://2403-homework.readthedocs.io/*
 """
