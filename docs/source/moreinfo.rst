@@ -32,5 +32,5 @@
 
 .. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
 
-.. rubric:: Footnotes
+.. rubric:: Footnote
 .. [#] 正常人一般不用看。
