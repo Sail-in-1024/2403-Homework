@@ -2,6 +2,8 @@
 2403 Homework
 *************
 
+- :doc:`简体中文 <README_CN>`
+
 This GitHub repository includes homework for 2403. 
 
 In other words, it's a GitHub format of homework for Class 803 (current name [#class-name]_). 
