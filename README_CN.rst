@@ -1,6 +1,8 @@
 2403-Homework
 =============
 
+- `English <README.rst>`_
+
 这个 GitHub仓库 包含了“2403”的作业。
 
 换句话说，这是803（现在的叫法 [#class-name]_）作业的 GitHub 形式。
