@@ -13,6 +13,6 @@
 .. _the ReadtheDocs Version: https://2403-homework.readthedocs.io/
 .. _Sphinx: https://sphinx-doc.org/
 
-.. rubric:: Footnotes
+.. rubric:: 备注
 
 .. [#class-name] The name 803 lasts from 2025.9 to 2026.7. 
