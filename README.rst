@@ -2,7 +2,7 @@
 2403 Homework
 *************
 
-- :doc:`简体中文 <./README_CN.rst>`
+- `简体中文 <./README_CN.rst>`_
 
 This GitHub repository includes homework for 2403. 
 
