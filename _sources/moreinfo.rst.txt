@@ -10,7 +10,7 @@
    常见问题
       见 :doc:`faq`。
    
-   特殊指代 [#]_
+   特殊名称 [#]_
       见 :doc:`glossary`。
    
    更新日志
@@ -32,5 +32,5 @@
 
 .. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
 
-.. rubric:: Footnotes
+.. rubric:: Footnote
 .. [#] 正常人一般不用看。

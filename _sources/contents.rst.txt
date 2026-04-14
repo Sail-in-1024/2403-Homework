@@ -5,10 +5,11 @@
 可能会有点长。
 
 .. toctree::
-   
-   index
+   :glob:
+   :reversed:
 
-.. toctree::
-   
-   glossary
+   events/*
    updatelogs
+   glossary
+   moreinfo
+   faq
