@@ -30,6 +30,10 @@
 
 当前版本为 |version| 。
 
+.. margin::
+   
+   Hello
+
 .. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
 
 .. rubric:: Footnote
