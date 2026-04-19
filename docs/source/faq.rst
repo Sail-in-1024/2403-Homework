@@ -71,7 +71,6 @@
 ，还有 ---
 
 .. admonition:: 提示
-   :class: margin
    
    提示信息...
 
