@@ -36,12 +36,10 @@ html_css_files = ['custom_homework.css']
 
 html_static_path = ['_static']
 
-html_last_updated_fmt = ''
+html_last_updated_fmt = '%b %d, %Y (%H:%M %Z)'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-today_fmt = '%b %d, %Y (%H:%M %Z)'
 
 rst_epilog = """
 .. |class-name| replace:: 803
