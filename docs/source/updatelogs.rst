@@ -15,8 +15,8 @@
 
 一番斟酌后，决定使用 book (`sphinx-book-theme`_) 主题，代替以前的 `sphinx-rtd-theme`_ 。
 
-.. _sphinx-book-theme:: https://sphinx-book-theme.readthedocs.io/en/latest/
-.. _sphinx-rtd-theme:: https://sphinx-rtd-theme.readthedocs.io/en/latest/
+.. _sphinx-book-theme: https://sphinx-book-theme.readthedocs.io/en/latest/
+.. _sphinx-rtd-theme: https://sphinx-rtd-theme.readthedocs.io/en/latest/
 
 1.0.1
 -----
