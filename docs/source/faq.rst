@@ -14,9 +14,9 @@
 \* 怎么做的？
 ^^^^^^^^^^^^^
    
-   这个项目被存储在 `The GitHub Repository`_ 上，使用了 `Read the Docs tutorial`_ 模板。
+这个项目被存储在 `The GitHub Repository`_ 上，使用了 `Read the Docs tutorial`_ 模板。
 
-   网页主要由 `Sphinx 文档生成工具 <Sphinx_>`_ 渲染，而整个项目由 `Read the Docs`_ 托管。感兴趣的话可以参考 `Sphinx 项目部署文档 <Read the Docs intro_>`_ 。
+网页主要由 `Sphinx 文档生成工具 <Sphinx_>`_ 渲染，而整个项目由 `Read the Docs`_ 托管。感兴趣的话可以参考 `Sphinx 项目部署文档 <Read the Docs intro_>`_ 。
 
 .. _The GitHub Repository: https://github.com/Sail-in-1024/2403-Homework
 .. _Read the Docs tutorial: https://github.com/readthedocs/tutorial-template/
@@ -24,10 +24,10 @@
 
 \* 为什么选择在线上发布？
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-  
-  线上的功能更丰富。
-  
-  这就很像一个类似的问题“\ :ref:`is-overqualified`\ ”。
+
+线上的功能更丰富。
+
+这就很像一个类似的问题“\ :ref:`is-overqualified`\ ”。
 
 每次打开怎么都那么慢？
 ----------------------
