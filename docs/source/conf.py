@@ -32,8 +32,11 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_book_theme'
 
-# html_theme_options = {
-# }
+html_theme_options = {
+    'extra_css_variables': {
+        '--pst-link-text-decoration': 'none',
+    },
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
