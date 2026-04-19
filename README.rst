@@ -11,6 +11,10 @@ In other words, it's a GitHub format of homework for Class |class-name| (current
 To browse it on webpages, visit `ReadtheDocs Version`_. 
 This is a `Sphinx`_ project. 
 
+.. seealso::
+   
+   view `index <docs/index.rst>`_
+
 .. _ReadtheDocs Version: https://2403-homework.readthedocs.io/
 .. _Sphinx: https://sphinx-doc.org/
 
