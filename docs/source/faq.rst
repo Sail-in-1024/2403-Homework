@@ -92,4 +92,4 @@
 .. _Read the Docs: https://www.readthedocs.org/
 .. _GitHub: https://www.github.com/
 .. _Cloudflare: https://www.cloudflare-cn.com/
-.. _book-based: https://sphinx-book-theme.readthedocs.io/en/latest/
+.. _book: https://sphinx-book-theme.readthedocs.io/en/latest/
