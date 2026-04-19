@@ -30,7 +30,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_book_theme'
+html_theme = 'breeze'
 
 # html_theme_options = {
 # }
