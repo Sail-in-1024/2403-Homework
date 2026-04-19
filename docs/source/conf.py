@@ -7,7 +7,7 @@ copyright = '2026, 颜赏'
 author = '颜赏'
 
 release = '1.1'
-version = '1.1.0a4'
+version = '1.1.0b1'
 
 # -- General configuration
 
@@ -42,5 +42,5 @@ today_fmt = '%b %d, %Y (%H:%M %Z)'
 
 rst_epilog = """
 .. |class-name| replace:: 803
-.. |page-source| replace:: *来自 https://2403-homework.readthedocs.io/*
+.. |page-source| replace:: *来自 https://2403-homework.readthedocs.io/ ，PDF格式可以在网页下载*
 """
