@@ -40,7 +40,7 @@ rst_epilog = '''
 html_theme = 'sphinx_book_theme'
 
 html_theme_options = {
-    'repository_url': 'https://github.com/{your-docs-url}',
+    'repository_url': 'https://github.com/Sail-in-1024/2403-Homework.git',
     'use_repository_button': True,
 }
 
