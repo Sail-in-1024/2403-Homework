@@ -1,3 +1,6 @@
-a.internal {
+a.internal, 
+a.footnote-reference, 
+a.fn-backref
+{
     text-decoration: none !important;
 }
