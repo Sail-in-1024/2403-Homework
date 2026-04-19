@@ -6,8 +6,8 @@ project = '2403 Homework'
 copyright = '2026, 颜赏'
 author = '颜赏'
 
-release = '1.0'
-version = '1.0.1'
+release = '1.1'
+version = '1.1.0'
 
 # -- General configuration
 
@@ -30,7 +30,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'
 
 # html_theme_options = {
 # }
