@@ -32,6 +32,11 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_book_theme'
 
+html_theme_options = {
+    'repository_url': 'https://github.com/{your-docs-url}',
+    'use_repository_button': True,
+}
+
 html_css_files = ['custom_homework.css']
 
 html_static_path = ['_static']
@@ -41,7 +46,7 @@ html_last_updated_fmt = '%b %d, %Y (%H:%M %Z)'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-rst_epilog = """
+rst_epilog = '''
 .. |class-name| replace:: 803
 .. |page-source| replace:: *来自 https://2403-homework.readthedocs.io/ ，PDF格式可以在网页下载*
-"""
+'''
