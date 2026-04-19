@@ -28,6 +28,13 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+today_fmt = '%b %d, %Y (%H:%M %Z)'
+
+rst_epilog = '''
+.. |class-name| replace:: 803
+.. |page-source| replace:: *来自 https://2403-homework.readthedocs.io/ ，PDF格式可以在网页下载*
+'''
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_book_theme'
@@ -45,8 +52,3 @@ html_last_updated_fmt = '%b %d, %Y (%H:%M %Z)'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-rst_epilog = '''
-.. |class-name| replace:: 803
-.. |page-source| replace:: *来自 https://2403-homework.readthedocs.io/ ，PDF格式可以在网页下载*
-'''
