@@ -7,7 +7,6 @@
 .. toctree::
    :glob:
    :reversed:
-   :numbered:
 
    events/*
    updatelogs
