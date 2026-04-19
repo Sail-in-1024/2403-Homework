@@ -36,6 +36,8 @@ html_css_files = ['custom_homework.css']
 
 html_static_path = ['_static']
 
+html_last_updated_fmt = ''
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
