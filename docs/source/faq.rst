@@ -86,6 +86,8 @@
 
 按照计划，这个项目将持续维护～😊
 
+
+.. rubric:: Footnotes
 .. [#book-based] 基于 `book`_ 主题的功能和特性
 
 .. _Sphinx: https://www.sphinx-doc.org/zh-cn/master/
