@@ -4,3 +4,8 @@ a.fn-backref
 {
     text-decoration: none !important;
 }
+
+.strikethrough
+{
+    text-decoration: line-through;
+}
