@@ -31,7 +31,7 @@ templates_path = ['_templates']
 today_fmt = '%b %d, %Y (%H:%M %Z)'
 
 rst_prolog = '''
-.. role:: del(line)
+.. role:: del
    :class: strikethrough
 '''
 rst_epilog = '''
