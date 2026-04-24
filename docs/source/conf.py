@@ -30,6 +30,10 @@ templates_path = ['_templates']
 
 today_fmt = '%b %d, %Y (%H:%M %Z)'
 
+rst_prolog = '''
+.. role:: del(line)
+   :class: deleted
+'''
 rst_epilog = '''
 .. |class-name| replace:: 803
 .. |page-source| replace:: *来自 https://2403-homework.readthedocs.io/ ，PDF格式可以在网页下载*
@@ -38,7 +42,6 @@ rst_epilog = '''
 # -- Options for HTML output
 
 html_theme = 'sphinx_book_theme'
-
 html_theme_options = {
     'repository_url': 'https://github.com/Sail-in-1024/2403-Homework.git',
     'use_repository_button': True,
