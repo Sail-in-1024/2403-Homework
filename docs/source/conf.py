@@ -7,7 +7,7 @@ copyright = '2026, 颜赏'
 author = '颜赏'
 
 release = '1.1'
-version = '1.1.0rc1'
+version = '1.1.0rc2'
 
 # -- General configuration
 
@@ -32,7 +32,7 @@ today_fmt = '%b %d, %Y (%H:%M %Z)'
 
 rst_prolog = '''
 .. role:: del(line)
-   :class: deleted
+   :class: strikethrough
 '''
 rst_epilog = '''
 .. |class-name| replace:: 803
