@@ -24,6 +24,8 @@
 .. _Read the Docs tutorial: https://github.com/readthedocs/tutorial-template/
 .. _Read the Docs intro: https://docs.readthedocs.com/platform/stable/intro/sphinx.html
 
+.. _why-online:
+
 \* 为什么选择在线上发布？
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -59,7 +61,7 @@
 
 可能是的。
 
-但使用 `Sphinx`_ 部署文档还是有优点的。这里的文档编辑功能很好用。支持 **粗体** ， *斜体* ， ``字面值`` ，`超链接 <https://www.example.com/>`__，:ref:`交叉引用 <is-overqualified>`，以及 ---
+但使用 `Sphinx`_ 部署文档还是有优点的。这里的文档编辑功能很好用。支持 **粗体** ， *斜体* ， ``字面值`` ，`超链接 <https://www.example.com/>`__，:ref:`交叉引用 <why-online>`，以及 ---
 
 .. code-block:: rest
    :caption: 代码块
