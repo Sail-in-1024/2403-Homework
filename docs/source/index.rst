@@ -3,18 +3,20 @@
 
 忘了记作业？这里有。
 
+.. topic:: ❔常见问题
+   
+   对于这个项目，你可能产生的\ :doc:`问题 <faq>`。
+
+.. topic:: ℹ️更多信息
+   
+   一些对你来说\ :doc:`不太重要的内容 <moreinfo>`。
+
 目录
 ----
 
-.. toctree::
-   :titlesonly:
-   
-   faq
-   
-   moreinfo
-
-
 下面记录了不同时间的消息和布置的作业，按日期降序排序。 可能不太完整。
+
+----
 
 .. toctree::
    :titlesonly:
@@ -22,3 +24,5 @@
    :reversed:
    
    events/*
+
+----
