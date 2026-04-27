@@ -1,6 +1,8 @@
-a.internal, 
-a.footnote-reference, 
-a.fn-backref
+.internal,
+.footnote-reference,
+.prev-next-title,
+.toc-backref,
+[role="doc-backlink"]
 {
     text-decoration: none !important;
 }
