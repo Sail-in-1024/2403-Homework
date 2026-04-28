@@ -1,5 +1,11 @@
 # Configuration file for the Sphinx documentation builder.
 
+import sys
+import os
+
+
+sys.path.insert(0, os.path.abspath('../../src'))
+
 # -- Project information
 
 project = '2403 Homework'
@@ -7,7 +13,7 @@ copyright = '2026, 颜赏'
 author = '颜赏'
 
 release = '1.1'
-version = '1.1.0rc2'
+version = '1.1.0'
 
 # -- General configuration
 
