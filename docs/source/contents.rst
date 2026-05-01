@@ -9,7 +9,7 @@
    :reversed:
 
    events/*
-   updatelogs
+   update-logs/index
    glossary
    moreinfo
    faq
