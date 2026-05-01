@@ -5,11 +5,11 @@
 可能会有点长。
 
 .. toctree::
-   :glob:
    :reversed:
 
-   events/*
+   index
    update-logs/index
+   api
    glossary
    moreinfo
    faq
