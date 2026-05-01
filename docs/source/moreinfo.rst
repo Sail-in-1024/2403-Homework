@@ -14,7 +14,7 @@
       见 :doc:`glossary`。
    
    更新日志
-      见 :doc:`updatelogs`。
+      见 :doc:`update-logs/index`。
    
    完整目录
       见 :doc:`contents`。
