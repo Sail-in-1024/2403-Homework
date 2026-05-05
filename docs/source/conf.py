@@ -45,6 +45,8 @@ rst_epilog = '''
 .. |page-source| replace:: *来自 https://2403-homework.readthedocs.io/ ，PDF格式可以在网页下载*
 '''
 
+root_doc = 'contents'
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_book_theme'
