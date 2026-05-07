@@ -4,8 +4,7 @@ import sys
 import os
 
 
-
-os.system('sphinx-apidoc -o ./ ../../src')
+sys.path.insert(0, os.path.abspath('../../src'))
 
 # -- Project information
 
