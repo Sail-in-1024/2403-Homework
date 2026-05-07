@@ -11,13 +11,36 @@ logger = logging.getLogger(__name__)
 date_like = datetime.date | str | None
 
 class Generatable(metaclass=abc.ABCMeta):
+    
+    """
+    可生成文档类型的抽象基类。
+    
+    Abstract base class of doc-generatable types.
+    """
 
     @abc.abstractmethod
     def dumps(self) -> str:
+        """
+        实现生成 reStructuredText 形式的文档的功能。
+        
+        Implement generating reStructuredText format of a documentation.
+        """
         pass
 
 class Simple(Generatable):
-
+    
+    """
+    可生成文档类型的一个简单实现。
+    
+    A simple implementation of a doc-generatable type.
+    
+    :ivar content: 文档正文
+       the body of a documentation
+    """
+    
+    #: 装饰标题所使用的标点符号
+    #:
+    #: punctuation character for marking titles
     TITLE_SYMBOL = '~'
 
     def __init__(self,
@@ -33,9 +56,27 @@ class Simple(Generatable):
         return self.dumps()
 
     def dumps(self) -> str:
+        """
+        生成文档。
+        
+        Generate the documentation.
+        
+        先调用 :meth:`.generate_title` 生成标题部分，与后面的 :attr:`content` 以 ``\n\n`` 相隔，即一个空行。
+        
+        Call :meth:`.generate_title` first to generate the title part, followed by ``\n\n`` (A blank line), then :attr:`content`.
+        """
         return self.generate_title() + '\n\n' + self.content
 
     def generate_title(self) -> str:
+        """
+        生成文档标题部分的 reStructuredText 形式。
+        
+        Generate reStructuredText format of the title part of the documentation.
+        
+        标题最先出现，再是一些用于装饰的标点符号。
+        
+        The title comes first, then punctuation characters for marking.
+        """
         width = 0
         for char in self.title:
             eaw = unicodedata.east_asian_width(char)
