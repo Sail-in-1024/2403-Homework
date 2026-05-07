@@ -4,7 +4,6 @@ import sys
 import os
 
 
-sys.path.insert(0, os.path.abspath('../../src'))
 
 os.system('sphinx-apidoc -o ./ ../../src')
 
@@ -15,7 +14,7 @@ copyright = '2026, 颜赏'
 author = '颜赏'
 
 release = '1.1'
-version = '1.1.1'
+version = '1.1.2a1'
 
 # -- General configuration
 
