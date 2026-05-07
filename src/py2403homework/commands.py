@@ -6,9 +6,9 @@ Orienting towards rows, parse and run commands.
 
 import argparse
 try:
-    from . import _types
+    from . import utils
 except ImportError:
-    import _types
+    import utils
 
 
 parser = argparse.ArgumentParser(
@@ -25,7 +25,7 @@ def run(args, parser: argparse.ArgumentParser=parser):
     """
     namespace = parser.parse_args(args)
     try:
-        event_type = getattr(_types, namespace.type)
+        event_type = getattr(utils, namespace.type)
     except AttributeError:
         raise ValueError(f'event type "{namespace.type}" not found')
     print(event_type())
