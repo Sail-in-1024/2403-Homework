@@ -28,6 +28,11 @@ extensions = [
     'sphinx.ext.githubpages',
 ]
 
+autodoc_default_options = {
+    'undoc-members': True,
+    'private-members': '_types',
+}
+
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
