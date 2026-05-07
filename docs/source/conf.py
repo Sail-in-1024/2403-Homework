@@ -6,6 +6,8 @@ import os
 
 sys.path.insert(0, os.path.abspath('../../src'))
 
+os.system('sphinx-apidoc -o ./ ../../src')
+
 # -- Project information
 
 project = '2403 Homework'
