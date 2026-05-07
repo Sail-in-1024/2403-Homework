@@ -4,7 +4,7 @@ import abc
 import time
 import unicodedata
 
-__all__ = ['Library', 'Event', 'Homework']
+__all__ = ['Library', 'Generateble', 'Simple', 'Event', 'Homework']
 
 logger = logging.getLogger(__name__)
 
@@ -33,9 +33,6 @@ class Simple(Generatable):
     可生成文档类型的一个简单实现。
     
     A simple implementation of a doc-generatable type.
-    
-    :ivar content: 文档正文
-       the body of a documentation
     """
     
     #: 装饰标题所使用的标点符号
@@ -46,6 +43,8 @@ class Simple(Generatable):
     def __init__(self,
                  title,
                  content: str | None = None):
+        #: 文档正文
+        #: the body of a documentation
         self.title = title
         if content:
             self.content = content
