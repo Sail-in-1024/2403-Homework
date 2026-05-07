@@ -30,6 +30,10 @@ class Generatable(metaclass=abc.ABCMeta):
         实现生成 reStructuredText 形式的文档的功能。
         
         Implement generating reStructuredText format of a documentation.
+        
+        :return: reStructuredText 源码
+           sourcecode
+        :rtype: str
         """
         pass
 
@@ -39,6 +43,8 @@ class Simple(Generatable):
     可生成文档类型的一个简单实现。
     
     A simple implementation of a doc-generatable type.
+    
+    :param title: 
     """
     
     #: 装饰标题所使用的标点符号
@@ -81,6 +87,9 @@ class Simple(Generatable):
         标题最先出现，再是一些用于装饰的标点符号。
         
         The title comes first, then punctuation characters for marking.
+        
+        :return: reStructuredText 格式的章节标记
+        :rtype: str
         """
         width = 0
         for char in self.title:
