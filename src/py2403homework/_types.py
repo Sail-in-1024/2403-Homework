@@ -4,7 +4,7 @@ import abc
 import time
 import unicodedata
 
-__all__ = ['Library', 'Generateble', 'Simple', 'Event', 'Homework']
+__all__ = ['Library', 'Generatable', 'Simple', 'Event', 'Homework']
 
 logger = logging.getLogger(__name__)
 
