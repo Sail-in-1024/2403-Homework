@@ -20,8 +20,9 @@ def run(args):
         raise ValueError(f'event type "{namespace.type}" not found')
     print(event_type())
 
-if len(sys.argv) == 1:
-    args = input('$ ').split()
-    run(args)
-else:
-    run(sys.argv[1:])
+if __name__ == '__main__':
+    if len(sys.argv) == 1:
+        args = input('$ ').split()
+        run(args)
+    else:
+        run(sys.argv[1:])
