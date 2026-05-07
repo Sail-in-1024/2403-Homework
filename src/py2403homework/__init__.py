@@ -4,4 +4,5 @@
 A module used to generate reStructuredText source files of documentation. It must be helpful when generating 2403 Homework.
 """
 
-from ._types import *
+from . import utils
+from . import commands
