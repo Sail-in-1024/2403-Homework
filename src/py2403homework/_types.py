@@ -1,3 +1,11 @@
+"""
+:meta public:
+
+提供了一些有用的类型，用于生成作业文档源文件。
+
+This module provides some useful types to generate source files of homework documentation.
+"""
+
 import logging
 import datetime
 import abc
