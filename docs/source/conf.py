@@ -29,6 +29,7 @@ extensions = [
 ]
 
 autodoc_default_options = {
+    'members': True,
     # 'undoc-members': True,
     # 'private-members': '_types',
 }
