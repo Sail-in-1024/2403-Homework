@@ -13,4 +13,4 @@ API
 
 .. automodule:: py2403homework
 
-.. autoclass:: Generatable
+.. autoclass:: py2403homework.utils.Generatable
