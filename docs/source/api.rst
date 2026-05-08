@@ -7,6 +7,10 @@ API
    :recursive:
 
    py2403homework
-   py2403homework.utils
-   py2403homework.commands
-   
+
+:mod:`py2403homework` 的 API
+----------------------------
+
+.. automodule:: py2403homework
+
+.. autoclass:: Generatable
