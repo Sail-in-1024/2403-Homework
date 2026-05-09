@@ -11,7 +11,7 @@
 
    index
    update-logs/index
-   api
+   api/index
    glossary
    moreinfo
    faq
