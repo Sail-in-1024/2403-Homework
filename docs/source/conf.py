@@ -6,6 +6,8 @@ import os
 
 sys.path.insert(0, os.path.abspath('../../src'))
 
+class_name = '803'
+
 # -- Project information
 
 project = '2403 Homework'
@@ -13,7 +15,7 @@ copyright = '2026, 颜赏'
 author = '颜赏'
 
 release = '1.1'
-version = '1.1.2a1'
+version = '1.1.2a2'
 
 # -- General configuration
 
@@ -48,8 +50,9 @@ rst_prolog = '''
 .. role:: del
    :class: strikethrough
 '''
-rst_epilog = '''
-.. |class-name| replace:: 803
+rst_epilog = f'''
+.. |2403-homework| replace:: :ref:`{class_name}的作业 <2403-homework-title>`
+.. |class-name| replace:: {class_name}
 .. |page-source| replace:: *来自 https://2403-homework.readthedocs.io/ ，PDF格式可以在网页下载*
 '''
 
