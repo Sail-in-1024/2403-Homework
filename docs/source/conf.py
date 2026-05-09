@@ -32,7 +32,7 @@ extensions = [
 
 autodoc_default_options = {
     'members': True,
-    'inherited-members': True,
+    # 'inherited-members': True,
     # 'undoc-members': True,
     # 'private-members': '_types',
     'show-inheritance': True,
