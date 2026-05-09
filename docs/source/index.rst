@@ -1,4 +1,4 @@
-.. _2403-homework:
+.. _2403-homework-title:
 
 |class-name|\ 的作业 主页
 =========================
