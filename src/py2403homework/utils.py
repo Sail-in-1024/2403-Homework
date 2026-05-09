@@ -44,30 +44,37 @@ class Simple(Generatable):
     
     A simple implementation of a doc-generatable type.
     
-    :param title: 
+    :arg title: 章节标题，不能超过一行
+       section title within a line
+    :arg content: 标题后的正文
+       the body after ``title``
     """
     
     #: 装饰标题所使用的标点符号
     #:
     #: punctuation character for marking titles
-    TITLE_SYMBOL = '~'
+    TITLE_SYMBOL: str = '~'
 
     def __init__(self,
-                 title,
+                 title: str,
                  content: str | None = None):
-        #: 文档正文
-        #: the body of a documentation
+        #: 由 ``title`` 参数设置
+        #:
+        #: set by argument ``title``
         self.title = title
         if content:
+            #: 由 ``content`` 参数设置
+            #: set by argument ``content``
             self.content = content
         else:
+            #: Simple.content
             self.content = ''
 
     def __str__(self):
         return self.dumps()
 
     def dumps(self) -> str:
-        """
+        r"""
         生成文档。
         
         Generate the documentation.
@@ -102,6 +109,9 @@ class Simple(Generatable):
 
 class Event(Simple):
 
+    #: 默认事件类型名称，作为 ``name`` 参数的默认值使用
+    #:
+    #: default event format name, used as the default value of argument ``name``
     DEFAULT_NAME = '事件'
     DEFAULT_CONTENT = ''
 
