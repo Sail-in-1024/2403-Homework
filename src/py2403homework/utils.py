@@ -40,7 +40,7 @@ class Generatable(metaclass=abc.ABCMeta):
 class Simple(Generatable):
     
     """
-    :term:`可生成文档类型`\ 的一个简单实现。
+    :term:`可生成文档类型 <doc-generatable>`\ 的一个简单实现。
     
     A simple implementation of a :term:`doc-generatable` type.
     
@@ -103,7 +103,6 @@ class Simple(Generatable):
         The title comes first, then punctuation characters for marking.
         
         :return: reStructuredText 格式的章节标记
-        :rtype: str
         """
         width = 0
         for char in self.title:
@@ -122,6 +121,8 @@ class Event(Simple):
     General event type, also the base class of all :term:`event type`\ s.
     
     :arg description: 对于事件的描述，若不为空，则标题后会加上 `` --- {description}``
+    :arg name: 事件名称，默认使用 :data:`.DEFAULT_NAME`
+    :arg date: 事件日期，若为空则调用 :func:`time.strftime`；若为字符串则直接使用，为 :class:`datetime.date` 类型时用 ``'{date.year:0>4}/{date.month:0>2}/{date.day:0>2}'`` 的格式转换，并放在标题的开头
     """
 
     #: 默认事件类型名称，作为 ``name`` 参数的默认值使用
