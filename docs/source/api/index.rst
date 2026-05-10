@@ -13,6 +13,7 @@ API
 除自动生成的 API 文档外，这里还提供了一些参考信息。
 
 .. toctree::
-   :caption: 其它 API 文档目录
+   :caption: 其它 API 文档
    
+   cli
    glossary
