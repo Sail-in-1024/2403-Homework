@@ -35,7 +35,7 @@ autodoc_default_options = {
     # 'inherited-members': True,
     # 'undoc-members': True,
     # 'private-members': '_types',
-    'special-members': ('__str__',),
+    'special-members': '__str__',
     'member-order': 'bysource',
     'show-inheritance': True,
 }
