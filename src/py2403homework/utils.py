@@ -19,9 +19,9 @@ date_like = datetime.date | str | None
 class Generatable(metaclass=abc.ABCMeta):
     
     """
-    可生成文档类型的抽象基类。
+    :term:`可生成文档类型 <doc-generatable>`\ 的抽象基类。
     
-    Abstract base class of doc-generatable types.
+    Abstract base class of :term:`doc-generatable` types.
     """
 
     @abc.abstractmethod
@@ -40,9 +40,9 @@ class Generatable(metaclass=abc.ABCMeta):
 class Simple(Generatable):
     
     """
-    可生成文档类型的一个简单实现。
+    :term:`可生成文档类型`\ 的一个简单实现。
     
-    A simple implementation of a doc-generatable type.
+    A simple implementation of a :term:`doc-generatable` type.
     
     :arg title: 章节标题，不能超过一行
        section title within a line
@@ -64,13 +64,20 @@ class Simple(Generatable):
         self.title = title
         if content:
             #: 由 ``content`` 参数设置
+            #:
             #: set by argument ``content``
             self.content = content
         else:
-            #: Simple.content
             self.content = ''
 
     def __str__(self):
+        """
+        :meth:`.dumps` 方法的快捷方式。
+        
+        The shortcut for :meth:`.dumps`.
+        
+        :rtype: str
+        """
         return self.dumps()
 
     def dumps(self) -> str:
@@ -109,11 +116,23 @@ class Simple(Generatable):
 
 class Event(Simple):
 
+    """
+    普通事件类型，也是所有 :term:`event type` 的基类。
+    
+    General event type, also the base class of all :term:`event type`\ s.
+    
+    :arg description: 对于事件的描述，若不为空，则标题后会加上 `` --- {description}``
+    """
+
     #: 默认事件类型名称，作为 ``name`` 参数的默认值使用
     #:
     #: default event format name, used as the default value of argument ``name``
-    DEFAULT_NAME = '事件'
-    DEFAULT_CONTENT = ''
+    DEFAULT_NAME: str = '事件'
+
+    #: 默认内容，作为 ``content`` 参数的默认值使用
+    #:
+    #: default content, used as the default value of argument ``content``
+    DEFAULT_CONTENT: str = ''
 
     def __init__(self,
                  description: str | None = None,
