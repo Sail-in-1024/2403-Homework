@@ -44,7 +44,7 @@ parser: ArgumentParser = ArgumentParser(
     # prog='python -m py2403homework',
     description = 'A tool to generate reST content for homework',
 )
-parser.add_argument('-u', '--use', 'util', default='Homework', help='event type')
+parser.add_argument('-u', '--use', '--util', default='Homework', help='event type')
 
 def run(args=None, parser: ArgumentParser = parser):
     """
