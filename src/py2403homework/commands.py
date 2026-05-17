@@ -37,9 +37,9 @@ except ImportError:
     import utils
 
 
-#: 用于解析命令行参数。
+#: 用于解析命令行参数。:func:`run` 的默认值。
 #:
-#: Used to parse command line parameters.
+#: Used to parse command line parameters. The default value of :func:`run`. 
 parser: ArgumentParser = ArgumentParser(
     # prog='python -m py2403homework',
     description = 'A tool to generate reST content for homework',
@@ -52,9 +52,9 @@ def run(args=None, parser: ArgumentParser = parser):
     
     Run specified command.
     
-    :arg args: 待解析的命令行参数，调用时将作为 ``parser`` 的 :meth:`ArgumentParser.parse_args` 方法中的 ``args`` 参数。可以是一个由字符串组成的序列，或是一个字符串；若 ``args`` 为空，则使用 :data:`sys.argv`（详见 :mod:`argparse` 文档）
+    :arg args: 待解析的命令行参数，调用时将作为 ``parser`` 的 :meth:`argparse.ArgumentParser.parse_args` 方法中的 ``args`` 参数。可以是一个由字符串组成的序列，或是一个字符串；若 ``args`` 为空，则使用 :data:`sys.argv` （详见 :mod:`argparse` 文档）
        
-       command line parameters to be parased, which will be as argument ``args`` of method :meth:`ArgumentParser.parse_args` of ``parser``. It could be a sequence consists of strings, or a simply a string; if it's ``None``, :data:`sys.argv` will be used instead (To learn more, visit :mod:`argparse`\ 's documentation)
+       command line parameters to be parased, which will be as argument ``args`` of method :meth:`argparse.ArgumentParser.parse_args` of ``parser``. It could be a sequence consists of strings, or a simply a string; if it's ``None``, :data:`sys.argv` will be used instead (To learn more, visit :mod:`argparse`\ 's documentation)
     :type args: collections.abc.Sequence[str] or str or None
     :arg parser: 用于解析 ``args`` 的 :class:`argparse.ArgumentParser` 对象，一般使用默认值即可
        
