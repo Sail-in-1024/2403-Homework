@@ -14,8 +14,8 @@ project = '2403 Homework'
 copyright = '2026, 颜赏'
 author = '颜赏'
 
-release = '1.1'
-version = '1.1.2a2'
+release = '1.2'
+version = '1.2.0a2'
 
 # -- General configuration
 
