@@ -18,7 +18,7 @@ date_like = datetime.date | str | None
 
 class Generatable(metaclass=abc.ABCMeta):
     
-    """
+    r"""
     :term:`可生成文档类型 <doc-generatable>`\ 的抽象基类。
     
     Abstract base class of :term:`doc-generatable` types.
@@ -39,7 +39,7 @@ class Generatable(metaclass=abc.ABCMeta):
 
 class Simple(Generatable):
     
-    """
+    r"""
     :term:`可生成文档类型 <doc-generatable>`\ 的一个简单实现。
     
     A simple implementation of a :term:`doc-generatable` type.
@@ -115,7 +115,7 @@ class Simple(Generatable):
 
 class Event(Simple):
 
-    """
+    r"""
     普通事件类型，也是所有 :term:`event type` 的基类。
     
     General event type, also the base class of all :term:`event type`\ s.
