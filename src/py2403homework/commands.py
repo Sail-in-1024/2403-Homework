@@ -47,7 +47,7 @@ parser: ArgumentParser = ArgumentParser(
 parser.add_argument('-u', '--use', '--util', default='Homework', help='event type')
 
 def run(args=None, parser: ArgumentParser = parser):
-    """
+    r"""
     运行指定的命令。
     
     Run specified command.
