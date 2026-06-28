@@ -5,7 +5,8 @@
 .. seealso::
    
    GitHub
-      见 `The GitHub Repository`_。
+      前往 `The GitHub Repository`_。
+      https://github.com/Sail-in-1024/2403-Homework
    
    常见问题
       见 :doc:`faq`。
