@@ -2,7 +2,10 @@
 2403 Homework
 *************
 
-- `简体中文 <./README_CN.rst>`_
+.. image:: https://readthedocs.org/projects/2403-homework/badge/?version=latest
+   :alt: Documentation Status
+
+* `简体中文 <./README_CN.rst>`_
 
 This GitHub repository includes homework for 2403. 
 
