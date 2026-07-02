@@ -4,6 +4,7 @@
 
 .. image:: https://readthedocs.org/projects/2403-homework/badge/?version=latest
    :alt: Documentation Status
+   :target: https://2403-homework.readthedocs.io/latest
 
 * `简体中文 <./README_CN.rst>`_
 
