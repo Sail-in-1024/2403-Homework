@@ -20,6 +20,6 @@ This is a `Sphinx`_ project.
 
 .. rubric:: Footnotes
 
-.. [#name-ref] The name |class-name| lasts from 2025.9 to 2026.7. 
+.. [#name-ref] The name |class-name| lasts from 2026.7 to 2027.7. 
 
-.. |class-name| replace:: 803
+.. |class-name| replace:: 903
